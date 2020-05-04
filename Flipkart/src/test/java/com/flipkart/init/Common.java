@@ -115,7 +115,7 @@ public class Common extends Init{
 		}
 	  
 //	  public static void clickableElement(WebElement webelement, WebDriver driver) 
-	  public void clickableElement(WebElement webelement, WebDriver driver) 
+	  public static void clickableElement(WebElement webelement, WebDriver driver) 
 		{
 			(new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(webelement));
 		}

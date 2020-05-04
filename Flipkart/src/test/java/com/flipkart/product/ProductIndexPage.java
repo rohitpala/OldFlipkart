@@ -32,6 +32,7 @@ public class ProductIndexPage extends AbstractPage{
 		
 	public ProductVerification mouseHoveronElectronics()
 	{
+		Common.clickableElement(closeLoginPopup, driver);
 		closeLoginPopup.click();
 //		WebDriverWait wait = new WebDriverWait(driver, 30);
 //		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//span[@class='_1QZ6fC _3Lgyp8'][text()='Electronics']")));
@@ -44,6 +45,7 @@ public class ProductIndexPage extends AbstractPage{
 	WebElement realme6;
 	public ProductVerification clickonRealme()
 	{
+		Common.clickableElement(realme6, driver);
 		realme6.click();
 		return new ProductVerification(driver);
 	}
@@ -60,8 +62,10 @@ public class ProductIndexPage extends AbstractPage{
 		Actions action = new Actions(driver);
 		action.dragAndDropBy(sourceLocator, 80, 0).build().perform();
 //		Common.Pause(1);
+		Common.clickableElement(gb4Checkbox, driver);
 		gb4Checkbox.click();
 //		Common.Pause(1);
+		Common.clickableElement(lowtohighPrice, driver);
 		lowtohighPrice.click();
 		return new ProductVerification(driver);
 	}
@@ -70,8 +74,9 @@ public class ProductIndexPage extends AbstractPage{
 	WebElement clickOnProductimg;
 	public ProductVerification selectProduct()
 	{
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='_3wU53n'][text()='Realme 1 (Diamond Red, 64 GB)']")));
+//		WebDriverWait wait = new WebDriverWait(driver, 30);
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='_3wU53n'][text()='Realme 1 (Diamond Red, 64 GB)']")));
+		Common.clickableElement(clickOnProductimg, driver);
 		clickOnProductimg.click();
 		return new ProductVerification(driver);
 	}
@@ -82,6 +87,7 @@ public class ProductIndexPage extends AbstractPage{
 	{
 		ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+		Common.clickableElement(productAddtoCart, driver);
 		productAddtoCart.click();
 		return new ProductVerification(driver);
 	}

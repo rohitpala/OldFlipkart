@@ -24,7 +24,7 @@ public class ProductIndex extends Init {
 			common.log(no++, "Open the URL -> " + url);
 			productVerification = productIndexPage.mouseHoveronElectronics();
 			common.log(no++, "Mouse hover on 'electronics'");
-			Common.Pause(1);
+//			Common.Pause(1);
 	
 			productVerification = productIndexPage.clickonRealme();
 			common.log(no++, "Click on 'Realme'");
@@ -37,11 +37,12 @@ public class ProductIndex extends Init {
 			
 			productIndexPage.selectProduct();
 			common.log(no++, "Click on First product");
-			Common.Pause(1);
+//			Common.Pause(1);
 			
 			productIndexPage.addToCart();
 			common.log(no++, "Click on 'Add to Cart' button");
 			
+			Common.Pause(2);
 			common.logOnlyMsg("Verify to check cart is not empty: -> ");
 			if(productVerification.verifyProductInCart())
 			{

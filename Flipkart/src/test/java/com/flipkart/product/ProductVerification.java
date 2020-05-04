@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.flipkart.init.AbstractPage;
+import com.flipkart.init.Common;
 import com.flipkart.init.Init;
 
 public class ProductVerification extends AbstractPage{
@@ -21,9 +22,9 @@ public class ProductVerification extends AbstractPage{
 	WebElement productDiv;
 	public boolean verifyProductInCart()
 	{
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='_3ycxrs _2Rwa71']")));
-		
+//		WebDriverWait wait = new WebDriverWait(driver, 30);
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='_3ycxrs _2Rwa71']")));
+		Common.clickableElement(productDiv, driver);
 		if(productDiv.isDisplayed())
 			return true;
 		else

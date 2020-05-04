@@ -32,16 +32,16 @@
       <![CDATA[<b><font color='green'>Pass</font></b></br>]]>
     </line>
   </reporter-output>
-  <suite name="Seleniumeasy Class" duration-ms="34466" started-at="2020-05-04T09:12:47Z" finished-at="2020-05-04T09:13:22Z">
+  <suite name="Seleniumeasy Class" duration-ms="30677" started-at="2020-05-04T11:52:19Z" finished-at="2020-05-04T11:52:50Z">
     <groups>
     </groups>
-    <test name="simpledemo" duration-ms="34466" started-at="2020-05-04T09:12:47Z" finished-at="2020-05-04T09:13:22Z">
+    <test name="simpledemo" duration-ms="30677" started-at="2020-05-04T11:52:19Z" finished-at="2020-05-04T11:52:50Z">
       <class name="com.flipkart.product.ProductIndex">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="openbrowser" is-config="true" duration-ms="16390" started-at="2020-05-04T14:42:47Z" finished-at="2020-05-04T14:43:04Z">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="openbrowser" is-config="true" duration-ms="16048" started-at="2020-05-04T17:22:19Z" finished-at="2020-05-04T17:22:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="flipkart()[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="flipkart" duration-ms="17056" started-at="2020-05-04T14:43:04Z" finished-at="2020-05-04T14:43:21Z">
+        <test-method status="PASS" signature="flipkart()[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="flipkart" duration-ms="13661" started-at="2020-05-04T17:22:35Z" finished-at="2020-05-04T17:22:49Z">
           <reporter-output>
             <line>
               <![CDATA[Step: -> 1 Open the URL -> https://www.flipkart.com/<br>]]>
@@ -75,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- flipkart -->
-        <test-method status="PASS" signature="postConfig(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="postConfig" is-config="true" duration-ms="1004" started-at="2020-05-04T14:43:21Z" finished-at="2020-05-04T14:43:22Z">
+        <test-method status="PASS" signature="postConfig(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="postConfig" is-config="true" duration-ms="951" started-at="2020-05-04T17:22:49Z" finished-at="2020-05-04T17:22:50Z">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@5b7a7f33]]>
+                <![CDATA[org.testng.TestRunner@6f204a1a]]>
               </value>
             </param>
           </params>
