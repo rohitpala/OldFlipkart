@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Seleniumeasy Class]">
+  <listeners>
+    <listener class-name="com.flipkart.utility.CustomReporter"/>
+    <listener class-name="com.flipkart.utility.CustomReporterBuildSummary"/>
+  </listeners>
+  <test name="simpledemo(failed)">
+    <classes>
+      <class name="com.flipkart.product.ProductIndex">
+        <methods>
+          <include name="flipkart"/>
+          <include name="openbrowser"/>
+          <include name="postConfig"/>
+        </methods>
+      </class> <!-- com.flipkart.product.ProductIndex -->
+    </classes>
+  </test> <!-- simpledemo(failed) -->
+</suite> <!-- Failed suite [Seleniumeasy Class] -->

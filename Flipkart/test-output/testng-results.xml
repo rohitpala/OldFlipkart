@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Step: -> 1 Open the URL -> https://www.flipkart.com/<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step: -> 2 Mouse hover on 'electronics'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step: -> 3 Click on 'Realme'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step: -> 4 Select price range from dragger<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step: -> 5 Select '4 GB' checkbox<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step: -> 6 Click on 'Price low to high'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step: -> 7 Click on First product<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step: -> 8 Click on 'Add to Cart' button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify to check cart is not empty: -> <br>]]>
+    </line>
+    <line>
+      <![CDATA[<b><font color='green'>Pass</font></b></br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Seleniumeasy Class" duration-ms="34466" started-at="2020-05-04T09:12:47Z" finished-at="2020-05-04T09:13:22Z">
+    <groups>
+    </groups>
+    <test name="simpledemo" duration-ms="34466" started-at="2020-05-04T09:12:47Z" finished-at="2020-05-04T09:13:22Z">
+      <class name="com.flipkart.product.ProductIndex">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="openbrowser" is-config="true" duration-ms="16390" started-at="2020-05-04T14:42:47Z" finished-at="2020-05-04T14:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="flipkart()[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="flipkart" duration-ms="17056" started-at="2020-05-04T14:43:04Z" finished-at="2020-05-04T14:43:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step: -> 1 Open the URL -> https://www.flipkart.com/<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step: -> 2 Mouse hover on 'electronics'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step: -> 3 Click on 'Realme'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step: -> 4 Select price range from dragger<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step: -> 5 Select '4 GB' checkbox<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step: -> 6 Click on 'Price low to high'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step: -> 7 Click on First product<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step: -> 8 Click on 'Add to Cart' button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify to check cart is not empty: -> <br>]]>
+            </line>
+            <line>
+              <![CDATA[<b><font color='green'>Pass</font></b></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipkart -->
+        <test-method status="PASS" signature="postConfig(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100]" name="postConfig" is-config="true" duration-ms="1004" started-at="2020-05-04T14:43:21Z" finished-at="2020-05-04T14:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkart status=SUCCESS method=ProductIndex.flipkart()[pri:0, instance:com.flipkart.product.ProductIndex@4cb2c100] output=Step: -> 1 Open the URL -> https://www.flipkart.com/<br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a7f33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+      </class> <!-- com.flipkart.product.ProductIndex -->
+    </test> <!-- simpledemo -->
+  </suite> <!-- Seleniumeasy Class -->
+</testng-results>

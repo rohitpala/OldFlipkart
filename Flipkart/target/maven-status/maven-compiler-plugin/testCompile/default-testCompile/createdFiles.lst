@@ -1,0 +1,15 @@
+com\flipkart\init\AbstractPage.class
+com\flipkart\utility\CustomReporter$1.class
+com\flipkart\utility\CustomReporterBuildSummary$1.class
+com\flipkart\utility\CustomReporterBuildSummary$TestSorter.class
+com\flipkart\init\Init.class
+com\flipkart\product\ProductIndexPage.class
+com\flipkart\product\ProductIndex.class
+com\flipkart\product\ProductVerification.class
+com\flipkart\utility\CustomReporterListener.class
+com\flipkart\utility\CustomReporter.class
+com\flipkart\utility\CustomReporter$TestSorter.class
+com\flipkart\init\ITestStatus.class
+com\flipkart\utility\TestData.class
+com\flipkart\utility\CustomReporterBuildSummary.class
+com\flipkart\init\Common.class
