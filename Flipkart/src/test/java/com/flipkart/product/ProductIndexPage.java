@@ -59,9 +59,9 @@ public class ProductIndexPage extends AbstractPage{
 	{
 		Actions action = new Actions(driver);
 		action.dragAndDropBy(sourceLocator, 80, 0).build().perform();
-		Common.Pause(1);
+//		Common.Pause(1);
 		gb4Checkbox.click();
-		Common.Pause(1);
+//		Common.Pause(1);
 		lowtohighPrice.click();
 		return new ProductVerification(driver);
 	}
