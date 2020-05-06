@@ -120,7 +120,7 @@ public class Common extends Init{
 			(new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(webelement));
 		}
 	  
-	  public void waitForElement(WebElement webelement, WebDriver driver) 
+	  public static void waitForElement(WebElement webelement, WebDriver driver) 
 		{
 			(new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(webelement));
 		}

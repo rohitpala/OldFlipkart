@@ -45,7 +45,8 @@ public class ProductIndexPage extends AbstractPage{
 	WebElement realme6;
 	public ProductVerification clickonRealme()
 	{
-		Common.clickableElement(realme6, driver);
+//		Common.clickableElement(realme6, driver);
+		Common.waitForElement(realme6, driver);
 		realme6.click();
 		return new ProductVerification(driver);
 	}
